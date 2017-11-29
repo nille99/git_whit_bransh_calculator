@@ -48,4 +48,19 @@ public class calculatortest {
 			assertEquals(c.mulitiply(firstNumber, seconNumber), result);
 		}
 	}
+	
+	@Test
+	public void testDivideMethod() {
+		
+		for(int i = 0;i<100;i++) {
+			int firstNumber = r.nextInt(100);
+			int seconNumber = r.nextInt(100);
+			int result = 0;
+			result = firstNumber / seconNumber;
+			
+			LOG.info("Testing the method divide with: "+ firstNumber +" and " + seconNumber);
+			assertEquals(Math.round(c.divide(firstNumber, seconNumber)), Math.round(result),1);
+			//assertEquals(c.divide(firstNumber, seconNumber), result);			
+		}
+	}
 }
