@@ -9,6 +9,7 @@ public class Calculator {
 		return firstnumber - seconnumber;
 	}
 	public int mulitiply(int firstnumber, int seconnumber) {
+		
 		return firstnumber * seconnumber;
 	}
 }
