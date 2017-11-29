@@ -8,8 +8,7 @@ public class Calculator {
 	public int subtract(int firstnumber, int seconnumber) {
 		return firstnumber - seconnumber;
 	}
-	public int mulitiply(int firstnumber, int seconnumber) {
-		
+	public int mulitiply(int firstnumber, int seconnumber) {		
 		return firstnumber * seconnumber;
 	}
 }
