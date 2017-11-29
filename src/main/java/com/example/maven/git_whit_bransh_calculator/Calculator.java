@@ -5,7 +5,7 @@ public class Calculator {
 		return firstnumber + seconnumber;
 	}
 	
-	public int submit(int firstnumber, int seconnumber) {
+	public int Subtract(int firstnumber, int seconnumber) {
 		return firstnumber - seconnumber;
 	}
 }
