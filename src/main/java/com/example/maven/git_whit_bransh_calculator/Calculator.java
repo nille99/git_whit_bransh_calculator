@@ -11,4 +11,15 @@ public class Calculator {
 	public int mulitiply(int firstnumber, int seconnumber) {		
 		return firstnumber * seconnumber;
 	}
+	public int divide(int firstNumber, int secondNumber) {
+		int result = firstNumber / secondNumber;
+		
+		if(secondNumber == 0) {
+			
+			System.out.println("Division by zero?");
+			return -1;
+		}	
+		
+		return result;
+	}
 }
