@@ -5,7 +5,10 @@ public class Calculator {
 		return firstnumber + seconnumber;
 	}
 	
-	public int Subtract(int firstnumber, int seconnumber) {
+	public int subtract(int firstnumber, int seconnumber) {
 		return firstnumber - seconnumber;
+	}
+	public int mulitiply(int firstnumber, int seconnumber) {
+		return firstnumber * seconnumber;
 	}
 }

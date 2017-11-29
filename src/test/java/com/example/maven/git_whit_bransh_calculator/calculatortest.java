@@ -32,8 +32,20 @@ public class calculatortest {
 			int seconNumber = r.nextInt(100);
 			int result = 0;
 			result = firstNumber - seconNumber;
-			LOG.info("Testing the Subtract add with" + firstNumber + " and " + seconNumber);
-			assertEquals(c.Subtract(firstNumber, seconNumber), result);
+			LOG.info("Testing the subtract add with" + firstNumber + " and " + seconNumber);
+			assertEquals(c.subtract(firstNumber, seconNumber), result);
+		}
+	}
+	
+	@Test
+	public void testMulitiplyMethod() {
+		for(int i = 0; i <10 ;i++) {
+			int firstNumber = r.nextInt(100);
+			int seconNumber = r.nextInt(100);
+			int result = 0;
+			result = firstNumber * seconNumber;
+			LOG.info("Testing the mulitiply add with" + firstNumber + " and " + seconNumber);
+			assertEquals(c.mulitiply(firstNumber, seconNumber), result);
 		}
 	}
 }
